@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Blanca Yolanda Rivera Chiguano</h1>
+        <p>Estudiante de Ingeniería Software</p>
+    </header>
+
+    <section class="perfil">
+
+        <h2>Información Personal</h2>
+
+        <ul>
+            <li>Nacionalidad: Ecuatoriana</li>
+            <li>Edad: 42 años</li>
+            <li>Estado Civil: Casada</li>
+            <li>Correo: rive_yoly@hotmail.com</li>
+            <li>Ciudad: Conocoto</li>
+        </ul>
+
+        <h2>Objetivo Profesional</h2>
+
+        <p>
+            Aplicar mis conocimientos y habilidades en una institución que
+            contribuya al desarrollo del país, fortaleciendo mi crecimiento
+            profesional y personal.
+        </p>
+
+        <h2>Educación</h2>
+
+        <ul>
+            <li>Universidad Central del Ecuador</li>
+            <li>Ingeniería en Informática</li>
+            <li>Certificación AuraQuantic</li>
+        </ul>
+
+        <h2>Experiencia Laboral</h2>
+
+        <p>
+            Analista de Diseño e Implementación de Procesos BPM con experiencia
+            en proyectos para Fiducia, Instituto Cordillera, Universidad Técnica
+            del Norte, INOCAR y ChevyPlan.
+        </p>
+
+    </section>
+
+    <section class="calculadora">
+
+        <h2>Calculadora PHP</h2>
+
+        <form action="suma.php" method="post">
+
+            <label>Número 1</label>
+            <input type="number" name="num1" required>
+
+            <label>Número 2</label>
+            <input type="number" name="num2" required>
+
+            <label>Operación</label>
+            <select name="operacion">
+                <option value="sumar">Sumar</option>
+                <option value="restar">Restar</option>
+                <option value="multiplicar">Multiplicar</option>
+                <option value="dividir">Dividir</option>
+            </select>
+
+            <button type="submit">Calcular</button>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>

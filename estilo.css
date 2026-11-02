@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header{
+    background-color: #1261af;
+    color: rgb(189, 183, 183);
+    text-align: center;
+    padding: 20px;
+}
+
+.perfil,
+.calculadora,
+.resultado{
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h2{
+    color: #003366;
+}
+
+input,
+select,
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0055aa;
+}
